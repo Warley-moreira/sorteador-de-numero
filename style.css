@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    width: 95%;
+    max-width: 740px;
+    margin-top: 32px;
+    /*  box-shadow: rgba(255, 255, 255, 0.35) 0px 6px 24px 0px, rgba(6, 118, 51, 0.8) 0px 0px 0px 1px; */
+    border-radius: 12px;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+img {
+    width: 333px;
+    height: auto;
+}
+
+h1 {
+    color: #D1D5DB;
+    font-weight: 600;
+}
+
+div {
+    display: flex;
+    gap: 32px;
+}
+
+input {
+    width: 310px;
+    height: 48px;
+    padding: 12px;
+    outline: none;
+    color: #000000;
+    font-size: 24px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border: none;
+    outline: 2px solid #00FF7F;
+    border-radius: 2px;
+}
+
+input::placeholder {
+    font-size: 24px;
+    color: #a0a2a4;
+    margin: auto;
+}
+
+button {
+    background-color: #00FF7F;
+    width: 310px;
+    height: 48px;
+    border: none;
+    font-size: 18px;
+    color: #191b1a;
+    font-weight: 900;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    width: 410px;
+    box-shadow: rgba(247, 247, 247, 0.12) 0px 1px 3px, rgba(42, 201, 6, 0.24) 0px 1px 2px;
+    padding: 12px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    width: auto;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: #191b1a;
+    border: 2px solid #00FF7F;
+    color: #00FF7F;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+@media (min-width: 240px) and (max-width: 940px) {
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1,
+    h2 {
+        font-size: 24px;
+    }
+
+    section {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 40px;
+    }
+}
