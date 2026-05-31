@@ -84,13 +84,14 @@ button:active {
 }
 
 section {
-    width: 410px;
+    width: auto;
     box-shadow: rgba(247, 247, 247, 0.12) 0px 1px 3px, rgba(42, 201, 6, 0.24) 0px 1px 2px;
     padding: 12px;
     border-radius: 3px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 18px;
 }
 
 h2 {
