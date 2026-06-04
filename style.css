@@ -99,17 +99,20 @@ h2 {
     text-align: center;
 }
 
-
-p {
+.numero-final {
     width: auto;
-    padding: 9px;
-    border-radius: 4px;
+    padding: 6px;
+    border-radius: 6px;
     background-color: #191b1a;
     border: 2px solid #00FF7F;
     color: #00FF7F;
-    font-size: 32px;
+}
+
+p {
+    color: #00FF7F;
+    font-size: 24px;
     font-weight: 800;
-    text-align: center;
+    text-align: auto;
 }
 
 @media (min-width: 240px) and (max-width: 940px) {
@@ -130,4 +133,9 @@ p {
         text-align: center;
         line-height: 40px;
     }
+}
+
+h3 {
+    background-color: transparent;
+    border: none;
 }
